@@ -1,0 +1,114 @@
+<!--
+Hier ist noch einiges zum ausprobieren auskommentiert 
+-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Distance to my Point</title>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="A01_style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+
+  <script src="point.js"></script>
+
+</head>
+
+<body>
+  <h1>Here you can see your distance to..</h1>
+  <div id="map"></div>
+  <script src="point.js"></script>
+  <script src="leaflet.js"></script>
+  <script src="cities.js"></script>
+  <script src="berechnung.js"></script>
+
+<!--creating a table for calculated values-->
+<div id="Datenbereich">
+<table>
+  <tr id="bereich1">
+      <th>Zielort</th>
+      <th>Entfernung</th>
+  </tr>
+  <tr>
+      <td>Köln</td>
+      <td></td>
+  </tr>
+  <tr>
+      <td>Amsterdam</td>
+      <td></td>
+  </tr>
+  <tr>
+      <td>Kassel</td>
+      <td></td>
+  </tr>
+  <tr>
+      <td>Barcelona</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td>Tunis</td>
+    <td></td>
+</tr>
+<tr>
+  <td>Oslo</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Amsterdam</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Kairo</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Kairo</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Dublin</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Kyoto</td>
+  <td></td>
+</tr>
+</table>
+</div>
+
+
+<!--Die JavaScript Ausgabe wir hier im HTML übernommen. Wäre dies im Js passiert, gab es probleme-->
+<script>
+var inhalt = document.getElementsByTagName('td')[1].innerHTML = distanzen[0];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[3].innerHTML = distanzen[1];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[5].innerHTML = distanzen[2];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[7].innerHTML = distanzen[3];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[9].innerHTML = distanzen[4];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[11].innerHTML = distanzen[5];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[13].innerHTML = distanzen[6];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[15].innerHTML = distanzen[7];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[17].innerHTML = distanzen[8];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[19].innerHTML = distanzen[9];
+console.log(inhalt);
+var inhalt = document.getElementsByTagName('td')[21].innerHTML = distanzen[10];
+console.log(inhalt);
+</script>
+  
+
+
+</body>
+
+</html>
