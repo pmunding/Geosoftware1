@@ -15,8 +15,8 @@ html, body{
 /*Tabellen design*/
 
 #Datenbereich {
-    background-color: aqua;
-    position: absolute; top: 25%; right: 1%;
+    background-color: rgb(118, 138, 138);
+    position: absolute; top: 55%; right: 1%;
 
 }
 
@@ -24,4 +24,12 @@ h1 {
     background-color: #7ab51d;
     width: 15%;
     position: absolute; top: 10px; right: 5%;
+}
+
+#eingabe {
+    position: absolute; top: 35%; right: 1%;
+}
+
+#knopf {
+    position: absolute; top: 20%; right: 1%;
 }
